@@ -6,7 +6,7 @@ A simple auto updater which waits for a new release from your github repository 
   - `sudo apt install jq`
   - `sudo apt install curl`
 2. Download following Files: [updater.sh](updater.sh), [beforeInstalling.sh](beforeInstalling.sh) and [afterInstalling.sh](afterInstalling.sh)
-3. Open [updater.sh](updater.sh) and edit the lines in code which are marked with `Configure Here` ![Configure Here Example](/images/configureHere.png)
+3. Open [updater.sh](updater.sh) and edit the lines in code which are marked with `Configure Here` ![Configure Here Example](https://github.com/JoniHoffi/githubAutoUpdater/tree/main/images/configureHere.png)
 4. Edit [beforeInstalling.sh](beforeInstalling.sh) and [afterInstalling.sh](afterInstalling.sh) so that it is tailored to your program. [Example](#BeforeAndAfter)
 5. Start the [updater.sh](updater.sh). We recommend to use a screen for it.
 
