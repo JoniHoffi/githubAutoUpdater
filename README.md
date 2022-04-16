@@ -10,6 +10,18 @@ A simple auto updater which waits for a new release from your github repository 
 4. Edit [beforeInstalling.sh](beforeInstalling.sh) and [afterInstalling.sh](afterInstalling.sh) so that it is tailored to your program. [Example](#BeforeAndAfter)
 5. Start the [updater.sh](updater.sh). We recommend to use a screen for it.
 
+## Which asset should be downloaded?
+You can configure which asset should be downloaded. In the picture below you can see which number is which asset!
+![Asset Number Example](images/assets.png)
+
+> How to select which assets should be downloaded?
+
+You can start the bash wit the argument "-a" for example --> "./updater.sh -a 1" --> This will download asset 1
+
+> Can i select multiply assets which should be downloaded?
+
+Not at the moment but this feature is planned
+
 ## BeforeAndAfter
 [beforeInstalling.sh](beforeInstalling.sh) and [afterInstalling.sh](afterInstalling.sh) are scripts which are executed before and after the update is executed.
 > What can I use this for?
